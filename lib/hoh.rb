@@ -60,6 +60,9 @@ def naming_system
       label: "Genus",
     }
   }
-  taxonomy[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_4
+  taxonomy[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = {
+    label: "Species",
+    sub_category: nil
+  }
 
 end
