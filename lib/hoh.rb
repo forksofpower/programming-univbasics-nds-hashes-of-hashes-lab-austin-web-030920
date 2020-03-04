@@ -54,7 +54,12 @@ def naming_system
   taxonomy[:sub_category][:sub_category][:sub_category] = {
     label: "Order"
   }
-  taxonomy[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_3
+  taxonomy[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = {
+    label: "Family",
+    sub_category: {
+      label: "Genus",
+    }
+  }
   taxonomy[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_4
 
 end
