@@ -51,7 +51,9 @@ def naming_system
       }
     }
   }
-  taxonomy[:sub_category][:sub_category][:sub_category] = PORTION_2
+  taxonomy[:sub_category][:sub_category][:sub_category] = {
+    label: "Order"
+  }
   taxonomy[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_3
   taxonomy[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_4
 
