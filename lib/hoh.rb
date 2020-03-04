@@ -41,6 +41,10 @@ def naming_system
   #  Species    => PORTION_4
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
-  {}
+
+  taxonomy = PORTION_1
+  taxonomy[:sub_category][:sub_category][:sub_category] = PORTION_2
+  taxonomy[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_3
+  taxonomy[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = PORTION_4
 
 end
